@@ -12,8 +12,8 @@ class btn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.fromLTRB(8, 2, 8, 12),
-      padding: EdgeInsets.fromLTRB(30, 6, 30, 6),
+      margin: const EdgeInsets.fromLTRB(8, 2, 8, 12),
+      padding: const EdgeInsets.fromLTRB(30, 6, 30, 6),
       decoration: BoxDecoration(
         color:col,
         borderRadius: BorderRadius.circular(20),
@@ -24,9 +24,9 @@ class btn extends StatelessWidget {
         },
         style: ButtonStyle(
           backgroundColor: MaterialStatePropertyAll(col),
-          elevation: MaterialStatePropertyAll(0),
+          elevation: const MaterialStatePropertyAll(0),
         ),
-        child: Text('$courseName',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+        child: Text('$courseName',style: const TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
       ),
     );
   }
