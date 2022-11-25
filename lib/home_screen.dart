@@ -27,8 +27,8 @@ class _HomeWidgetState extends State<HomeWidget> {
     return Scaffold(
       backgroundColor: Colors.grey,
       appBar: AppBar(
-        backgroundColor:Color(0xFF104AD1) ,
-        title: Text('Contact Screen',style: TextStyle(fontSize: 23),),
+        backgroundColor:const Color(0xFF104AD1) ,
+        title: const Text('Contact Screen',style: TextStyle(fontSize: 23),),
         centerTitle: true,
       ),
 
@@ -38,11 +38,11 @@ class _HomeWidgetState extends State<HomeWidget> {
             txtform(txt: 'Enter Your Name Here ',c: Icons.person,controller:  name,),
             txtform(txt: 'Enter Your Phone Number ',c: Icons.phone,controller: phone,),
 
-            SizedBox(height: 20,),
+            const SizedBox(height: 20,),
 
             Row(
               children: [
-                Expanded(child: btn(courseName: 'ADD',col: Color(0xFF104AD1),click: AddClicked,)),
+                Expanded(child: btn(courseName: 'ADD',col: const Color(0xFF104AD1),click: AddClicked,)),
                 Expanded(child: btn(courseName: 'Delete',col: Colors.red,click: DeletrClicked,)
                 ),
               ],
@@ -55,10 +55,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(25),
                   ),
-                  padding: EdgeInsets.fromLTRB(50, 20, 50, 20),
-                  margin: EdgeInsets.fromLTRB(10, 10, 10, 20),
+                  padding: const EdgeInsets.fromLTRB(50, 20, 50, 20),
+                  margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
                   child: Text('Name : ${name.text} \n Phone: ${phone.text} ',
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 25,
                       fontWeight: FontWeight.bold,
                     ),
@@ -72,10 +72,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(25),
                   ),
-                  padding: EdgeInsets.fromLTRB(50, 20, 50, 20),
-                  margin: EdgeInsets.fromLTRB(10, 10, 10, 20),
+                  padding: const EdgeInsets.fromLTRB(50, 20, 50, 20),
+                  margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
                   child: Text('Name : ${name.text} \n Phone: ${phone.text} ',
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 25,
                       fontWeight: FontWeight.bold,
                     ),
@@ -89,10 +89,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(25),
                   ),
-                  padding: EdgeInsets.fromLTRB(50, 20, 50, 20),
-                  margin: EdgeInsets.fromLTRB(10, 10, 10, 20),
+                  padding: const EdgeInsets.fromLTRB(50, 20, 50, 20),
+                  margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
                   child: Text('Name : ${name.text} \n Phone: ${phone.text} ',
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 25,
                       fontWeight: FontWeight.bold,
                     ),
