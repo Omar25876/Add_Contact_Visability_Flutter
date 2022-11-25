@@ -16,7 +16,7 @@ class btn extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(30, 6, 30, 6),
       decoration: BoxDecoration(
         color:col,
-        borderRadius: BorderRadius.circular(20),
+        borderRadius: BorderRadius.circular(21),
       ),
       child: ElevatedButton(
         onPressed: (){
